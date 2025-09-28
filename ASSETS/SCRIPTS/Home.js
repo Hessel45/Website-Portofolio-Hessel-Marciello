@@ -43,16 +43,6 @@
             });
         });
         
-        // Form submission
-        const contactForm = document.getElementById('contactForm');
-        if (contactForm) {
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Pesan Anda telah terkirim! Saya akan membalasnya segera.');
-                this.reset();
-            });
-        }
-        
         // Animation on scroll
         const animateOnScroll = () => {
             const elements = document.querySelectorAll('.skill-category, .project-card, .cert-card, .timeline-content');
